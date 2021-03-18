@@ -37,6 +37,7 @@ This data is being made available via the [Creative Commons Attribution Share Al
 | Column Name | Description |
 |-------------|-------------|
 | STM_id | Specimen ID |
+| GISAID_virus_name | [GISAID Virus Name](https://www.gisaid.org/) |
 | sex | Patient sex |
 | state | Patient state of residence |
 | lineage | [Pangolin](https://github.com/cov-lineages/pangolin) assigned SARS-CoV-2 lineage |
