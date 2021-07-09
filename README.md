@@ -4,9 +4,9 @@ Helix SARS-CoV-2 Surveillance
 =============================
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=%40my_helix)](https://twitter.com/my_helix)
 
-Helix® is currently working with Illumina and the CDC to sequence COVID-19 samples to monitor evolution and spread of SARS-CoV-2 variants. We are enriching for samples that show S gene target failure (SGTF) as well as a randomized subset of samples not exhibiting SGTF to expand the variants Helix is able to detect. Through these efforts, we have identified a significant portion of the publicly reported cases of the B.1.1.7 variant of concern.
+Helix® is no longer updating this repository. However, the dashboards below are still being updated regularly.
 
-The data here should closely match what is displayed on the [Helix COVID-19 Surveillance Dashboard](https://helix.com/covid19db), but there may be cases where there are slight inconsistencies due to timing of updates and different criteria for filtering.
+[Helix COVID-19 Surveillance Dashboard](https://helix.com/covid19db)
 
 This data is being made available via the [Creative Commons Attribution Share Alike license](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
