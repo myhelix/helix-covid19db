@@ -4,9 +4,9 @@ Helix SARS-CoV-2 Surveillance
 =============================
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=%40my_helix)](https://twitter.com/my_helix)
 
-Helix® is no longer updating this repository. However, the dashboards below are still being updated regularly.
+Helix® is currently working with public health agencies to sequence COVID-19 samples to monitor evolution and spread of SARS-CoV-2 variants.
 
-[Helix COVID-19 Surveillance Dashboard](https://helix.com/covid19db)
+Note that `positivity_by_time.csv` is the only dataset currently being updated. The files `counts_by_state.csv` and `sequencing_results.csv` are not up to date. For Helix's latest SARS-CoV-2 variant frequencies, please see the [Helix COVID-19 Surveillance Dashboard](https://helix.com/covid19db).
 
 This data is being made available via the [Creative Commons Attribution Share Alike license](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
@@ -15,6 +15,19 @@ This data is being made available via the [Creative Commons Attribution Share Al
 </p>
 
 ## 📚 Datasets
+
+### positivity_by_time.csv 📃
+- This file contains positivity rates for COVID-19 and FluA from Helix's diagnostic testing operation. Helix's diagnostic test simultaneously assays for COVID-19 and Flu.
+
+| Column Name | Description |
+|-------------|-------------|
+| collection_date | Date sample collected |
+| positive_result | Diagnostic test result |
+| positive_tests | Number of tests with that test result |
+| total_tests | Total number of tests collected that day |
+| positivity | Positivity rate corresponding to test result |
+| positivity_7day | 7-day rolling average positivity rate |
+
 
 ### counts_by_state.csv 📃
 - This file contains counts of test results aggregated by state and collection date.
