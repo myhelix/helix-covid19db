@@ -6,7 +6,11 @@ Helix SARS-CoV-2 Surveillance
 
 Helix® is currently working with public health agencies to sequence COVID-19 samples to monitor evolution and spread of SARS-CoV-2 variants.
 
-Note that `positivity_by_time.csv` is the only dataset currently being updated. The files `counts_by_state.csv` and `sequencing_results.csv` are not up to date. For Helix's latest SARS-CoV-2 variant frequencies, please see the [Helix COVID-19 Surveillance Dashboard](https://helix.com/covid19db).
+Note that `positivity_by_time.csv` and `positivity_by_age.csv` are the only datasets currently being updated. 
+
+The files `counts_by_state.csv` and `sequencing_results.csv` are **not up to date**. 
+
+For Helix's latest SARS-CoV-2 variant frequencies, please see the [Helix COVID-19 Surveillance Dashboard](https://helix.com/covid19db).
 
 This data is being made available via the [Creative Commons Attribution Share Alike license](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
@@ -26,6 +30,16 @@ This data is being made available via the [Creative Commons Attribution Share Al
 | positive_tests | Number of tests with that test result |
 | total_tests | Total number of tests collected that day |
 | positivity | Positivity rate corresponding to test result |
+| positivity_7day | 7-day rolling average positivity rate |
+
+### positivity_by_age.csv 📃
+- This file contains 7-day rolling average positivity rates for COVID-19 and FluA, by age group, from Helix's diagnostic testing operation. Helix's diagnostic test simultaneously assays for COVID-19 and Flu.
+
+| Column Name | Description |
+|-------------|-------------|
+| age_bin | Age group: <18, 18-24, 25-44, 45-64, and ≥65 year-olds |
+| collection_date | Date sample collected |
+| positive_result | Diagnostic test result |
 | positivity_7day | 7-day rolling average positivity rate |
 
 
