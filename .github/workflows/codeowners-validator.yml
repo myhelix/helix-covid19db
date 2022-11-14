@@ -14,4 +14,4 @@ jobs:
   call-workflow:
     uses: myhelix/security-workflows/.github/workflows/codeowners-validator.yml@v1.0.0
     secrets:
-      owners-validator-github-secret: ${{ secrets.OWNERS_VALIDATOR_GITHUB_SECRET }}
+      owners-validator-github-secret: ${{ secrets.OWNERS_VALIDATOR_PUBLIC_GITHUB_SECRET }}
